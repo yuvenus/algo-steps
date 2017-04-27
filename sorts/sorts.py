@@ -73,7 +73,6 @@ A = range(n)
 for i in range(n):
     A[i] = int(raw_input())
 
-
 # 2. Baseline sort.
 
 if check_sort(A) == False:
@@ -81,8 +80,6 @@ if check_sort(A) == False:
         fix_rev_sort(A)
     else:
         rand_quick(A,0,len(A) - 1);
-        
-
 
 # 3. Write output list.
 for x in A:
